@@ -1,0 +1,33 @@
+body {
+    display: flex;
+
+    justify-content: center;
+    align-content: center;
+}
+
+section {
+    display: flex;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+
+    height: 1600px;
+    width: 1200px;
+    gap: 100px;
+    list-style-type: none;
+}
+
+li {
+    padding: 10px;
+    border: 10px solid black;
+    display: flex;
+}
+
+img {
+    width: 200px;
+    height: 400px;
+}
