@@ -1,0 +1,183 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    border: 5px solid black;
+}
+
+header {
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.purple_spider {
+    color: purple;
+}
+
+header div p {
+    font-size:8.5px;
+    margin-top: -20px;
+}
+
+header nav ul {
+    /* border: 1px solid black; */
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.need_a_website {
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.need_a_website div {
+    /* border: 1px solid black; */
+    padding-left: 120px;
+}
+
+.need_a_website div p {
+    /* border: 1px solid black; */
+
+    width: 500px;
+
+}
+
+.planet_icon {
+    /* border: 1px solid black; */
+    font-size: 164px;
+    padding-right: 150px;
+}
+
+.need_a_website div button {
+    background-color: white;
+}
+
+.our__team {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    overflow: hidden;
+    width: 100%;
+    height:500px;
+    
+}
+
+.testimonials {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    overflow: hidden;
+    width: 100%;
+    height:500px;
+    padding-bottom: 820px;
+}
+
+.h2__our_team {
+    /* border: 1px solid black; */
+    text-align: center;
+    
+}
+
+hr {
+    width: 3%;
+    height: 2px;
+    background-color: black;
+}
+
+.container {
+    /* border: 1px solid black; */
+    width: 700px;
+    
+}
+
+.card {
+    display: inline-block;
+    /* border: 1px solid green; */
+    text-align: center;
+    width: 200px;
+    height:250px;
+    padding-left: 30px;
+}
+
+.card img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.mid__signup {
+    /* border: 1px solid black; */
+    text-align: center;
+    height: 150px;
+    background-color: rgba(145, 0, 145, 0.76);
+}
+
+.mid__signup h2 {
+    color: white;
+    padding-top: 20px;
+}
+
+footer {
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+    height: 200px;
+    background-color: whitesmoke;
+}
+
+.icon {
+    font-size: 12px;
+    padding-right: 5px;
+}
+
+footer div ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.purple_spider_div {
+    /* border: 1px solid black; */
+    width: 20%;
+}
+
+.sitemap {
+    /* border: 1px solid black; */
+    width: 450px;
+}
+
+.sitemap h3 {
+    padding-left: 35px;
+}
+
+.sitemap ul {
+    display: inline-block;
+    /* border: 1px solid black; */
+    width: 250px;
+    
+}
+
+.sitemap ul li {
+    /* border: 1px solid black; */
+    display:inline-block;
+    width: 100px;
+}
+
+.ul_contacts {
+    padding: 0;
+}
