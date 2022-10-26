@@ -3,9 +3,20 @@
 
 /* TODO	create a valid CSS Grid  */
 /* TODO make the layout responsive by using media queries */
+body {
+  display: grid;
+  grid-template-columns: 120px auto;
+  grid-template-areas: 
+  "header header"
+  "aside main"
+  "footer footer";
+  gap: 10px;
+}
 
-
-
+header { grid-area: header; }
+aside { grid-area: aside; }
+main { grid-area: main; }
+footer { grid-area: footer; }
 
 
 /* -------- Stiles -------- */
@@ -124,4 +135,16 @@ body {
   
 
 
-  
+  @media (max-width: 500px) {
+    body {
+      display: grid;
+      grid-template-areas: 
+      "header header"
+      "aside aside"
+      "main main"
+      "footer footer";
+    }
+    aside {
+      text-align: center;
+    }
+  }
