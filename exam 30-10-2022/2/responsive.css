@@ -1,0 +1,63 @@
+@media screen and (max-width: 600px) {
+    .site-header .site-navigation ul {
+        display: none;
+    }
+
+    .site-main .entry-header .button {
+        width: 130px;
+    }
+
+    .site-main .site-logos .site-logos-container .site-logo{
+        text-align: center;
+        
+    }
+
+    .site-main .site-logos-container {
+        display: grid;
+        grid-template-columns: 200px 200px;
+        align-items: center;
+        margin-left: 70px;
+    }
+
+    .site-main .entry-content .site-information {
+        display: block;
+        text-align: center;
+    }
+
+    .site-main .entry-content .site-information .site-information-text .entry-description {
+      padding-left: 50px;
+      width: 450px;
+    }
+
+    .site-main .entry-content .site-information .site-information-text .button {
+        width: 100px;
+    }
+
+    .site-main .entry-content .site-form .site-form-container .entry-title {
+        font-size: 12px;
+    }
+
+    .site-main .entry-content .site-form .site-form-container form p {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .site-main .entry-content .site-form .site-form-container form input {
+        width: 400px;
+    }
+
+    .site-main .site-blog .site-blog-container .site-posts {
+        display: block;
+    }
+
+    .site-main .site-blog h2 {
+        width: 450px;
+        text-align: center;
+        padding-left: 50px;
+    }
+
+    .site-footer {
+        display: block;
+        text-align: center;
+    }
+}
